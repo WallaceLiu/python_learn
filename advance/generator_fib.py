@@ -6,6 +6,7 @@ print(s)
 for x in s:
     print(x)
 
+
 def fib(max):
     n, a, b = 0, 0, 1
     while n < max:
@@ -13,6 +14,7 @@ def fib(max):
         a, b = b, a + b
         n = n + 1
     return 'done'
+
 
 f = fib(10)
 print('fib(10):', f)
@@ -28,4 +30,3 @@ while 1:
     except StopIteration as e:
         print('Generator return value:', e.value)
         break
-

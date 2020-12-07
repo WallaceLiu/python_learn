@@ -10,6 +10,7 @@ def consumer():
         print('[CONSUMER] Consuming %s...' % n)
         r = '200 OK'
 
+
 def produce(c):
     c.send(None)
     n = 0
@@ -19,6 +20,7 @@ def produce(c):
         r = c.send(n)
         print('[PRODUCER] Consumer return: %s' % r)
     c.close()
+
 
 c = consumer()
 produce(c)
