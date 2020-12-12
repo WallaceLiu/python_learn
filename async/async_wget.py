@@ -3,6 +3,7 @@
 
 import asyncio
 
+
 @asyncio.coroutine
 def wget(host):
     print('wget %s...' % host)
@@ -18,6 +19,7 @@ def wget(host):
         print('%s header > %s' % (host, line.decode('utf-8').rstrip()))
     # Ignore the body, close the socket
     writer.close()
+
 
 loop = asyncio.get_event_loop()
 tasks = [wget(host) for host in ['www.sina.com.cn', 'www.sohu.com', 'www.163.com']]
