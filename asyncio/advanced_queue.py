@@ -1,9 +1,7 @@
 # -*- coding:utf-8 -*-
 """
 
-
-
-https://docs.python.org/zh-cn/3.7/library/asyncio-queue.html
+    https://docs.python.org/zh-cn/3.7/library/asyncio-queue.html
 
 """
 import asyncio
@@ -59,4 +57,3 @@ async def main():
 
 
 asyncio.run(main())
-

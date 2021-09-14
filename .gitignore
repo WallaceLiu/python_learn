@@ -134,7 +134,6 @@ dmypy.json
 # sys
 .DS_Store
 
-# project
-index/
-data/
-log/socrates-faiss-web-api/*.log
+# ide
+*/.ipynb_checkpoints
+

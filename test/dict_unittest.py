@@ -3,6 +3,7 @@
 
 import unittest
 
+
 class Dict(dict):
 
     def __init__(self, **kw):
@@ -16,6 +17,7 @@ class Dict(dict):
 
     def __setattr__(self, key, value):
         self[key] = value
+
 
 class TestDict(unittest.TestCase):
 
@@ -51,6 +53,7 @@ class TestDict(unittest.TestCase):
         d = Dict()
         with self.assertRaises(AttributeError):
             value = d.empty
+
 
 if __name__ == '__main__':
     unittest.main()
