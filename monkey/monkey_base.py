@@ -1,10 +1,10 @@
 class XiaoMing(object):
     def favorite(self):
-        print "apple"
+        print("apple")
 
 
 def new_favorite():
-    print "banana"
+    print("banana")
 
 
 xiaoming = XiaoMing()

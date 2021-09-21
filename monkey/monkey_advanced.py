@@ -1,12 +1,12 @@
 class XiaoMing(object):
     def favorite(self):
-        print "apple"
+        print("apple")
 
 
 class God(object):
     @classmethod
     def new_xiaoming_favorite(cls):
-        print "banana"
+        print("banana")
 
     @classmethod
     def monkey_patch(cls):

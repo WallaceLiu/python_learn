@@ -7,8 +7,8 @@ from functools import wraps
 
 def decorator(func):
     "cache for function result, which is immutable with fixed arguments"
-    print
-    "initial cache for %s" % func.__name__
+    print("initial cache for %s" % func.__name__)
+
     cache = {}
 
     @wraps(func)
@@ -21,16 +21,13 @@ def decorator(func):
             (result, updateTime) = cache[key]
             # 过期时间固定为10秒
             if time.time() - updateTime < 10:
-                print
-                "limit call 10s", key
+                print("limit call 10s", key)
                 result = updateTime
             else:
-                print
-                "cache expired !!! can call "
+                print("cache expired !!! can call ")
                 result = None
         else:
-            print
-            "no cache for ", key
+            print("no cache for ", key)
         # 如果过期，或则没有缓存调用方法
         if result is None:
             result = func(*args, **kwargs)
