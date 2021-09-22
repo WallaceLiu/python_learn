@@ -6,11 +6,9 @@ except Exception as e:
 
 
 class MetaClass(type):
-
-    _instance ={}
+    _instance = {}
 
     def __call__(cls, *args, **kwargs):
-
         """ Singelton Design Pattern  """
 
         if cls not in cls._instance:
@@ -31,7 +29,6 @@ class RabbitmqConfigure(metaclass=MetaClass):
 class RabbitMq():
 
     def __init__(self, server):
-
         """
 
         :param server: Object of class RabbitmqConfigure
@@ -43,8 +40,7 @@ class RabbitMq():
         self._channel = self._connection.channel()
         self._channel.queue_declare(queue=self.server.queue)
 
-    def publish(self, payload ={}):
-
+    def publish(self, payload={}):
         """
 
         :param payload: JSON payload
@@ -52,22 +48,15 @@ class RabbitMq():
         """
 
         self._channel.basic_publish(exchange=self.server.exchange,
-                      routing_key=self.server.routingKey,
-                      body=str(payload))
+                                    routing_key=self.server.routingKey,
+                                    body=str(payload))
 
         print("Published Message: {}".format(payload))
         self._connection.close()
 
 
 if __name__ == "__main__":
-    server = RabbitmqConfigure(queue='hello',
-                               host='localhost',
-                               routingKey='hello',
-                               exchange='')
+    server = RabbitmqConfigure(queue='hello', host='localhost', routingKey='hello', exchange='')
 
     rabbitmq = RabbitMq(server)
-    rabbitmq.publish(payload={"Data":22})
-
-
-
-
+    rabbitmq.publish(payload={"Data": 22})

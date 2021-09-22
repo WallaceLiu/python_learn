@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ab1902c-c9fb-4e89-af25-31bbebb76400" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug/err_raise_ex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator_customize/asynchronous.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator_customize/elapsed_time.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator_customize/synchronized.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug/do_assert.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug/do_assert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug/do_logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug/do_logging.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug/err.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug/err.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug/err_logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug/err_logging.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug/err_raise.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug/err_raise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug/err_reraise.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug/err_reraise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug/mydict.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug/mydict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug/mydict2.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug/mydict2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug/mydict_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorator_custom/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_customize/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorator_custom/limit_invoke_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_customize/limit_fun_invoke.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multitask/do_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/multitask/do_queue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multitask/pooled_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/multitask/pooled_processing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multitask/use_threadlocal.py" beforeDir="false" afterPath="$PROJECT_DIR$/multitask/use_threadlocal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rabbitmq-tutorial/RPC.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/rpc.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rabbitmq-tutorial/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/SUMMARY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/rabbitmq-tutorial/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rabbitmq-tutorial/8-transfer-images/send_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/8-transfer-images/send_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rabbitmq-tutorial/9-transfer-code/receiver.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/9-transfer-code/receiver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rabbitmq-tutorial/9-transfer-code/sender.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/9-transfer-code/send_code.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +183,7 @@
       <updated>1631324326051</updated>
       <workItem from="1631324333673" duration="7864000" />
       <workItem from="1631544618165" duration="6758000" />
-      <workItem from="1632221986310" duration="11080000" />
+      <workItem from="1632221986310" duration="13176000" />
     </task>
     <servers />
   </component>
@@ -215,6 +194,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="458" y="184" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1632279094241">
+      <screen x="0" y="25" width="1440" height="814" />
+    </state>
+    <state x="458" y="184" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.814@0.25.1440.814" timestamp="1632279094241" />
     <state width="1358" height="172" key="GridCell.Tab.0.bottom" timestamp="1632276424953">
       <screen x="0" y="25" width="1440" height="813" />
     </state>

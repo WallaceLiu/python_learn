@@ -86,7 +86,7 @@ if __name__ == "__main__":
                                routingKey='hello',
                                exchange='')
 
-    image = Image(filename="/Users/soumilshah/Documents/Intelliji/2.png")
+    image = Image(filename="/Users/liuning/data_img/moon.png")
     data = image.get
 
     with RabbitMq(server) as rabbitmq:

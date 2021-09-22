@@ -7,11 +7,9 @@ except Exception as e:
 
 
 class MetaClass(type):
-
-    _instance ={}
+    _instance = {}
 
     def __call__(cls, *args, **kwargs):
-
         """ Singelton Design Pattern  """
 
         if cls not in cls._instance:
@@ -22,7 +20,6 @@ class MetaClass(type):
 class RabbitMqServerConfigure(metaclass=MetaClass):
 
     def __init__(self, host='localhost', queue='hello'):
-
         """ Server initialization   """
 
         self.host = host
@@ -32,7 +29,6 @@ class RabbitMqServerConfigure(metaclass=MetaClass):
 class rabbitmqServer():
 
     def __init__(self, server):
-
         """
 
         :param server: Object of class RabbitMqServerConfigure
@@ -45,14 +41,11 @@ class rabbitmqServer():
         print("Server started waiting for Messages ")
 
     @staticmethod
-    def callback(ch,method, properties, body):
-
+    def callback(ch, method, properties, body):
         Payload = body.decode("utf-8")
         Payload = ast.literal_eval(Payload)
         print(type(Payload))
         print("Data Received : {}".format(Payload))
-
-
 
     def startserver(self):
         self._channel.basic_consume(
