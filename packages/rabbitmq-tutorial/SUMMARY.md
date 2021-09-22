@@ -7,4 +7,4 @@
 * [Publish / Subscribe](publish-subscribe.md)
 * [Routing](exchange-routing.md)
 * [Topic](exchange_topics.md)
-* [Remote Process Call(RPC)](RPC.md)
+* [Remote Process Call(RPC)](rpc.md)

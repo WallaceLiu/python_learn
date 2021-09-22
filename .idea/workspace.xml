@@ -2,75 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ab1902c-c9fb-4e89-af25-31bbebb76400" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/decorator_custom/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/1-hello-world/receive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/1-hello-world/send.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/2-work-queues-persisted-ack/new_task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/2-work-queues-persisted-ack/receive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/3-log-exchange-fanout-exclusive/emit_log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/3-log-exchange-fanout-exclusive/emit_log2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/3-log-exchange-fanout-exclusive/receive_logs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/3-log-exchange-fanout-exclusive/receive_logs2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/4-log-exchange-fanout-broadcast/emit_log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/4-log-exchange-fanout-broadcast/receive_logs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/5-log-exchange-direct/emit_log_direct.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/5-log-exchange-direct/emit_log_direct2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/5-log-exchange-direct/receive_logs_direct.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/5-log-exchange-direct/receive_logs_direct2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/6-log-exchange-topics/emit_log_topic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/6-log-exchange-topics/emit_log_topic2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/6-log-exchange-topics/receive_logs_topic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/6-log-exchange-topics/receive_logs_topic2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/7-1-rpc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/7-1-rpc/rpc_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/7-1-rpc/rpc_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/7-2-rpc-flask/amqpstorm_threaded_rpc_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/7-2-rpc-flask/pika_async_rpc_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/8-transfer-images/receiver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/8-transfer-images/send_image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/9-transfer-code/receiver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/9-transfer-code/sender.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/RPC.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/SUMMARY.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/exchange-routing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/exchange_topics.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/install-rabbitmq-docker.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/introduction.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/pub-sub/.hgignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/pub-sub/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/pub-sub/consumer/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/pub-sub/consumer/consumer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/pub-sub/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/pub-sub/publisher/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/pub-sub/publisher/publisher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/publish-subscribe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/transfer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/work-queues.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorator_limit_invoke_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_custom/limit_invoke_func.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grpc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mem_profile/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/mem_profile/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mem_profile/memprofile_int.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/mem_profile/memprofile_int.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mem_profile/memprofile_str.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/mem_profile/memprofile_str.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mem_profile/memusage.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/mem_profile/memusage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monkey/monkey_advanced.py" beforeDir="false" afterPath="$PROJECT_DIR$/monkey/monkey_advanced.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monkey/monkey_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/monkey/monkey_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multitask/task_worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/multitask/task_worker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop_advance/create_class_on_the_fly.py" beforeDir="false" afterPath="$PROJECT_DIR$/oop_advance/create_class_on_the_fly.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/pil/use_pil_resize.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/pil/use_pil_resize.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/dict_doctest.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/dict_doctest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/dict_unittest.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/test/dict_unittest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/do_flask.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/do_flask.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/do_wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/do_wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/hello.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/mvc/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/mvc/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/mvc/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/mvc/templates/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/mvc/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/mvc/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/mvc/templates/signin-ok.html" beforeDir="false" afterPath="$PROJECT_DIR$/packages/web/mvc/templates/signin-ok.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debug/err_raise_ex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator_customize/asynchronous.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator_customize/elapsed_time.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator_customize/synchronized.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/do_assert.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug/do_assert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/do_logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug/do_logging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/err.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug/err.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/err_logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug/err_logging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/err_raise.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug/err_raise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/err_reraise.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug/err_reraise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/mydict.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug/mydict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/mydict2.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug/mydict2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/mydict_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator_custom/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_customize/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decorator_custom/limit_invoke_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/decorator_customize/limit_fun_invoke.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multitask/do_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/multitask/do_queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multitask/pooled_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/multitask/pooled_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multitask/use_threadlocal.py" beforeDir="false" afterPath="$PROJECT_DIR$/multitask/use_threadlocal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rabbitmq-tutorial/RPC.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/rpc.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rabbitmq-tutorial/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/rabbitmq-tutorial/SUMMARY.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/rabbitmq-tutorial/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/requirements.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,20 +57,20 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/decorator_custom" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/db" />
+      <recent name="$PROJECT_DIR$/debug" />
       <recent name="$PROJECT_DIR$/decorator_custom" />
       <recent name="$PROJECT_DIR$/packages" />
-      <recent name="$PROJECT_DIR$/rabbitmq-tutorial" />
-      <recent name="$PROJECT_DIR$/rabbitmq-tutorial/9-send-receive-code" />
-      <recent name="$PROJECT_DIR$/rabbitmq-tutorial/6-topics" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.send">
-    <configuration name="iter_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.do_assert">
+    <configuration name="do_assert" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,12 +78,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advance" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/debug" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advance/iter_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug/do_assert.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="memprofile_int" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="err_logging" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,12 +100,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mem_profile" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/debug" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mem_profile/memprofile_int.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug/err_logging.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="memprofile_str" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="err_reraise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -166,12 +122,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mem_profile" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/debug" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mem_profile/memprofile_str.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug/err_reraise.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,57 +136,47 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="memusage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Doctests in mydict2" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mem_profile" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/debug" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mem_profile/memusage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug/mydict2.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="send" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in mydict.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python_learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rabbitmq-tutorial/1-hello-world" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/debug" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rabbitmq-tutorial/1-hello-world/send.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/debug/mydict.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.send" />
-        <item itemvalue="Python.memusage" />
-        <item itemvalue="Python.memprofile_str" />
-        <item itemvalue="Python.memprofile_int" />
-        <item itemvalue="Python.iter_1" />
+        <item itemvalue="Python.do_assert" />
+        <item itemvalue="Python.err_logging" />
+        <item itemvalue="Python tests.Doctests in mydict2" />
+        <item itemvalue="Python tests.Unittests in mydict.py" />
+        <item itemvalue="Python.err_reraise" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +204,7 @@
       <updated>1631324326051</updated>
       <workItem from="1631324333673" duration="7864000" />
       <workItem from="1631544618165" duration="6758000" />
-      <workItem from="1632221986310" duration="8978000" />
+      <workItem from="1632221986310" duration="11080000" />
     </task>
     <servers />
   </component>
@@ -269,28 +215,28 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="107" key="GridCell.Tab.0.bottom" timestamp="1632222732112">
+    <state width="1358" height="172" key="GridCell.Tab.0.bottom" timestamp="1632276424953">
       <screen x="0" y="25" width="1440" height="813" />
     </state>
-    <state width="1358" height="107" key="GridCell.Tab.0.bottom/0.25.1440.813@0.25.1440.813" timestamp="1632222732112" />
+    <state width="1358" height="172" key="GridCell.Tab.0.bottom/0.25.1440.813@0.25.1440.813" timestamp="1632276424953" />
     <state width="1358" height="107" key="GridCell.Tab.0.bottom/0.25.1440.815@0.25.1440.815" timestamp="1631627466156" />
     <state width="1358" height="107" key="GridCell.Tab.0.bottom/0.25.1440.817@0.25.1440.817" timestamp="1631546884201" />
-    <state width="1358" height="107" key="GridCell.Tab.0.center" timestamp="1632222732111">
+    <state width="1358" height="172" key="GridCell.Tab.0.center" timestamp="1632276424952">
       <screen x="0" y="25" width="1440" height="813" />
     </state>
-    <state width="1358" height="107" key="GridCell.Tab.0.center/0.25.1440.813@0.25.1440.813" timestamp="1632222732111" />
+    <state width="1358" height="172" key="GridCell.Tab.0.center/0.25.1440.813@0.25.1440.813" timestamp="1632276424952" />
     <state width="1358" height="107" key="GridCell.Tab.0.center/0.25.1440.815@0.25.1440.815" timestamp="1631627466155" />
     <state width="1358" height="107" key="GridCell.Tab.0.center/0.25.1440.817@0.25.1440.817" timestamp="1631546884199" />
-    <state width="1358" height="107" key="GridCell.Tab.0.left" timestamp="1632222732110">
+    <state width="1358" height="172" key="GridCell.Tab.0.left" timestamp="1632276424951">
       <screen x="0" y="25" width="1440" height="813" />
     </state>
-    <state width="1358" height="107" key="GridCell.Tab.0.left/0.25.1440.813@0.25.1440.813" timestamp="1632222732110" />
+    <state width="1358" height="172" key="GridCell.Tab.0.left/0.25.1440.813@0.25.1440.813" timestamp="1632276424951" />
     <state width="1358" height="107" key="GridCell.Tab.0.left/0.25.1440.815@0.25.1440.815" timestamp="1631627466155" />
     <state width="1358" height="107" key="GridCell.Tab.0.left/0.25.1440.817@0.25.1440.817" timestamp="1631546884198" />
-    <state width="1358" height="107" key="GridCell.Tab.0.right" timestamp="1632222732112">
+    <state width="1358" height="172" key="GridCell.Tab.0.right" timestamp="1632276424953">
       <screen x="0" y="25" width="1440" height="813" />
     </state>
-    <state width="1358" height="107" key="GridCell.Tab.0.right/0.25.1440.813@0.25.1440.813" timestamp="1632222732112" />
+    <state width="1358" height="172" key="GridCell.Tab.0.right/0.25.1440.813@0.25.1440.813" timestamp="1632276424953" />
     <state width="1358" height="107" key="GridCell.Tab.0.right/0.25.1440.815@0.25.1440.815" timestamp="1631627466156" />
     <state width="1358" height="107" key="GridCell.Tab.0.right/0.25.1440.817@0.25.1440.817" timestamp="1631546884199" />
     <state x="249" y="88" key="SettingsEditor" timestamp="1631544969081">
@@ -301,11 +247,17 @@
     <state x="249" y="88" key="SettingsEditor/0.25.1440.817@0.25.1440.817" timestamp="1631544969081" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_learn$Unittests_in_mydict_py.coverage" NAME="Unittests in mydict.py Coverage Results" MODIFIED="1632276147984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/debug" />
+    <SUITE FILE_PATH="coverage/python_learn$Doctests_in_mydict2.coverage" NAME="Doctests in mydict2 Coverage Results" MODIFIED="1632276179770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/debug" />
     <SUITE FILE_PATH="coverage/python_learn$memusage.coverage" NAME="memusage Coverage Results" MODIFIED="1631545780935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mem_profile" />
+    <SUITE FILE_PATH="coverage/python_learn$err_reraise.coverage" NAME="err_reraise Coverage Results" MODIFIED="1632275909177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/debug" />
     <SUITE FILE_PATH="coverage/python_learn$send.coverage" NAME="send Coverage Results" MODIFIED="1632222709083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rabbitmq-tutorial/1-hello-world" />
     <SUITE FILE_PATH="coverage/python_learn$wordcount.coverage" NAME="wordcount Coverage Results" MODIFIED="1631335303842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/toolz_library" />
     <SUITE FILE_PATH="coverage/python_learn$do_iter2.coverage" NAME="do_iter2 Coverage Results" MODIFIED="1631419279071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advance" />
+    <SUITE FILE_PATH="coverage/python_learn$err_logging.coverage" NAME="err_logging Coverage Results" MODIFIED="1632276277360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/debug" />
     <SUITE FILE_PATH="coverage/python_learn$memprofile_str.coverage" NAME="memprofile_str Coverage Results" MODIFIED="1631545520800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mem_profile" />
+    <SUITE FILE_PATH="coverage/python_learn$do_assert.coverage" NAME="do_assert Coverage Results" MODIFIED="1632276345396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/debug" />
     <SUITE FILE_PATH="coverage/python_learn$memprofile.coverage" NAME="memprofile Coverage Results" MODIFIED="1631545298537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mem_profile" />
+    <SUITE FILE_PATH="coverage/python_learn$err_raise.coverage" NAME="err_raise Coverage Results" MODIFIED="1632275803529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/debug" />
   </component>
 </project>
